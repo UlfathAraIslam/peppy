@@ -38,10 +38,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-  header{
-    max-width: 1440px;
-    margin: 0 auto;
-  }
   .btn-primary{
     padding: 10px 47px;
     border: none;
@@ -64,10 +60,14 @@
     display: flex;
   }
   .navbar,.hero{
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
   }
   /* nav */
+  nav{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
   .navbar{
     padding: 20px;
   }
@@ -113,6 +113,10 @@
     border: 0.5px solid rgba(254, 163, 1, 1);
   }
   /* hero */
+  .hero{
+    max-width: 1160px;
+    margin: 0 auto;
+  }
   .hero-content{
     max-width: 640px;
   }
