@@ -118,6 +118,7 @@
   }
   .hero-title{
     font-size: 3.5rem;
+    margin-bottom: 20px;
   }
   #Empowering{
     color: rgba(254, 163, 1, 1);
@@ -133,6 +134,12 @@
     background-color: black;
     font-size: 1.25rem;
   }
+  .hero-img{
+    max-width: 486px;
+  }
+  .hero-img img{
+    width: 100%;
+  }
 
 
   /* responsive */
@@ -145,5 +152,17 @@
     .hr,
     .humberger-menu{
       display: block;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0 16px;
+    }
+    .hero-title{
+        font-size: 2rem;
+    }
+    .hero-details{
+        font-weight: 500;
+        font-size: 0.8rem;
     }
   }
