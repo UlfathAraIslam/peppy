@@ -156,7 +156,6 @@
     background-size: 100% auto;
     background-repeat: no-repeat;
     width: 100%;
-    border: 1px solid red;
     padding: 80px;
 }
 .curriculum-container{
@@ -228,6 +227,10 @@
     color: #FFFFFF;
     margin-right: 10px;
 }
+/* hide */
+.hide{
+    display: none;
+}
   /* responsive */
   @media screen and (max-width:576px){
     .name,
@@ -250,5 +253,27 @@
     .hero-details{
         font-weight: 500;
         font-size: 0.8rem;
+    }
+    .curriculum{
+        padding: 0;
+    }
+    .section-title{
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+    .curriculum-container{
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        align-items: center;
+        width: 95vw;
+        margin: 0 auto;
+    }
+    .curriculum-item{
+        width: 100%;
+        max-width: 100%;
+    }
+    .greater-less-icon{
+        display: none;
     }
   }
