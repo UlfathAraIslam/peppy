@@ -63,10 +63,12 @@
   .display-flex{
     display: flex;
   }
-  /* nav */
-  .navbar{
+  .navbar,.hero{
     justify-content: space-between;
     align-items: center;
+  }
+  /* nav */
+  .navbar{
     padding: 20px;
   }
   .logo-name{
@@ -109,6 +111,27 @@
   .hr{
     display: none;
     border: 0.5px solid rgba(254, 163, 1, 1);
+  }
+  /* hero */
+  .hero-content{
+    max-width: 640px;
+  }
+  .hero-title{
+    font-size: 3.5rem;
+  }
+  #Empowering{
+    color: rgba(254, 163, 1, 1);
+  }
+  #vision{
+    color: rgba(1, 172, 253, 1);
+  }
+  .hero-details{
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+  }
+  .enroll-btn{
+    background-color: black;
+    font-size: 1.25rem;
   }
 
 
