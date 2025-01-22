@@ -454,4 +454,18 @@ margin-right: 10px;
       border: none;
       border-radius: 12px;
     }
+    /* footer */
+    .footer{
+      padding: 40px 20px;
+    }
+    .footer-container{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+    .left-box{
+      grid-column: span 1;
+    }
+    .footer-logo-name{
+      font-size: 2.1rem;
+    }
   }
