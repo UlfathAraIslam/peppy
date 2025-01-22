@@ -167,6 +167,12 @@
   .hero-img img{
     width: 100%;
   }
+  marquee{
+    font-size: 1.8rem;
+    background-color: #000000;
+    color: rgba(254, 163, 1, 1);
+    margin-top: 20px;
+  }
 /* curriculum */
 .curriculum{
     /* TODO: background image should be cover with full image */
