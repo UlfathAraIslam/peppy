@@ -38,13 +38,6 @@
     padding: 0;
     box-sizing: border-box;
   }
-  /* body{
-    border: 1px solid red;
-  } */
-  /* main{
-    max-width: 1440px;
-    margin: 0 auto;
-  } */
   .btn-primary{
     padding: 10px 47px;
     border: none;
@@ -246,8 +239,6 @@
 }
 /* our stories */
 .our-stories{
-  /* max-width: 1440px; */
-  /* margin: 0 auto; */
   justify-content: space-around;
   background: url('../assets/bg.png'), linear-gradient(to top, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 1));
   margin-bottom: 0;
@@ -404,6 +395,9 @@ margin-right: 10px;
     .contact-btn{
       display: none;
     }
+    .navbar{
+      padding: 10px;
+    }
     .hr,
     .humberger-menu{
       display: block;
@@ -451,7 +445,6 @@ margin-right: 10px;
     .story-3, .story-4{
       display: block;
     }
-    /* TODO: more nicely show in small device */
     .story-publish-date{
       padding: 8px 12px;
       font-size: 0.7rem;
