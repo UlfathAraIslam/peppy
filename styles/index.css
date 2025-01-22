@@ -167,7 +167,8 @@
     background-image: url(../assets/bg.png);
     background-size: 100% auto;
     background-repeat: no-repeat;
-    width: 100%;
+    overflow: hidden;
+    width: 100vw;
     /* padding: 80px; */
 }
 .curriculum-container{
@@ -266,13 +267,16 @@
 }
 .right-story-cards{
   display: grid;
-  grid-template-columns: repeat(2,290px);
+  grid-template-columns: repeat(2,1fr);
   gap: 19px;
 }
 .right-story-title{
   padding: 20px;
   font-size: 0.95rem;
   line-height: 28px;
+}
+.story-3, .story-4{
+  display: none;
 }
 /* hide */
 .hide{
@@ -292,7 +296,6 @@
     .hero{
         flex-direction: column-reverse;
         text-align: center;
-        padding: 0 16px;
     }
     .hero-title{
         font-size: 2rem;
@@ -322,5 +325,15 @@
     }
     .greater-less-icon{
         display: none;
+    }
+    .left-story-card{
+      display: none;
+    }
+    .right-story-cards{
+      gap: 11px;
+      padding: 0 16px;
+    }
+    .story-3, .story-4{
+      display: block;
     }
   }
